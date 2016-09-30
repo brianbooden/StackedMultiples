@@ -13,6 +13,8 @@ Selections can be made by clicking on a bar; the selection will be made on the x
 
 An example (Stacked Multiples.qvf) is included.
 
+![Qlik Sense Stacked Multiples Extension](Stacked Multiples Animated.gif)
+
 Dimensions and Measures (all mandatory)
 ======================================
 Dimension 1 - Non-grouped dimension (on x-axis)
