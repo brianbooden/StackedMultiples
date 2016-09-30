@@ -1,0 +1,16 @@
+{
+	"name": "Stacked Multiples",
+	"description": "Visualisation to simplify the interpretation of constituent parts of a stacked bar chart",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "extension",
+	"preview": "StackedMultiples.png",
+	"author": "Brian Booden",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=1.0.x"
+	}
+}

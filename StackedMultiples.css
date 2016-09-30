@@ -1,0 +1,56 @@
+.qv-object-StackedMultiples body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+.qv-object-StackedMultiples text {
+  font: 10px sans-serif;
+}
+
+.qv-object-StackedMultiples .axis path {
+  display: none;
+}
+
+.qv-object-StackedMultiples .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-StackedMultiples .group-label {
+  font-weight: bold;
+  text-anchor: end;
+}
+
+.qv-object-StackedMultiples form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.qv-object-StackedMultiples div.tooltip {	
+	position: absolute;			
+	text-align: left;
+	font-family: "PT Sans", sans-serif;			
+	white-space: normal;					
+	padding: 6px;				
+	font-size: 10px;		
+	background: #eee;	
+	border: 1px solid gray;	
+	border-radius: 2px;			
+	pointer-events: none;
+	cursor: none;
+
+}
+
+.qv-object-StackedMultiples .bar-highlight {
+  stroke: grey;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-StackedMultiples .bar-normal {
+  fill-opacity: 1;
+}
