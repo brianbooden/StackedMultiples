@@ -155,8 +155,8 @@ define(["jquery","qlik", "./d3.v3.min", "css!./StackedMultiples.css"],function (
 			  .style("opacity", function(d,i,j) {
 				return j > 0 ? "1" : "0";
 			  })
-			  .text(function(d) {
-					return formatNumber(totalLabels[0]);
+			  .text(function(d,i) {
+					return formatNumber(totalLabels[i]);
 				  });
     
 			// Update the checkedValue variable
@@ -425,8 +425,8 @@ define(["jquery","qlik", "./d3.v3.min", "css!./StackedMultiples.css"],function (
 				  .style("opacity", function(d,i,j) {
 					return j > 0 ? "1" : "0";
 				  })
-				  .text(function(d) {
-					return formatNumber(totalLabels[0]);
+				  .text(function(d, i) {
+					return formatNumber(totalLabels[i]);
 				  });
 			}
 			else
